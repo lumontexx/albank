@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #1e40af;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.center {
+  align-content: center;
+  align-items: center;
+}
+.margin-menu {
+  margin: 40px;
+}
+.text-justify {
+  text-align: justify;
+}
+.conteiner {
+  background-color: #f8981d;
+  padding: 20px;
+  margin: 40px;
+  align-content: center;
+  border-radius: 5%;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-size {
+  font-size: 20px;
+}
+.text-list {
+  margin-left: 70px;
+}
