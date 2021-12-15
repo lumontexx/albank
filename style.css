@@ -6,12 +6,16 @@ body {
 }
 a {
   text-decoration: none;
+}
+.color-link a {
   color: #fff;
 }
 .flex {
   display: flex;
-  flex-wrap: wrap;
   gap: 20px;
+}
+.wrap {
+  flex-wrap: wrap;
 }
 .center {
   align-content: center;
@@ -27,7 +31,6 @@ a {
   background-color: #f8981d;
   padding: 20px;
   margin: 40px;
-  align-content: center;
   border-radius: 5%;
 }
 .text-bold {
@@ -37,5 +40,33 @@ a {
   font-size: 20px;
 }
 .text-list {
-  margin-left: 70px;
+  margin: 20px;
+}
+.spacearound {
+  justify-content: space-around;
+}
+
+.linkbutton {
+  background-color: #fff;
+  color: #1e40af;
+  padding: 10px 90px;
+  margin: 10px;
+  height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.bold {
+  font-weight: bold;
+}
+.blue a {
+  color: #1e40af;
+}
+.marginbuttons {
+  margin: 10px;
+}
+.margintopbutton {
+  margin-top: 60px;
+}
+.text-center {
+  text-align: center;
 }
