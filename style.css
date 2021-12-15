@@ -24,6 +24,9 @@ a {
 .margin-menu {
   margin: 40px;
 }
+.margin-text {
+  margin: 70px 40px;
+}
 .text-justify {
   text-align: justify;
 }
@@ -69,4 +72,7 @@ a {
 }
 .text-center {
   text-align: center;
+}
+.size-footer {
+  font-size: 20px;
 }
