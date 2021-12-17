@@ -31,11 +31,12 @@ a {
   text-align: justify;
 }
 .conteiner {
-  background-color: #f8981d;
+  background-color: #da8618;
   padding: 90px;
   margin: 10px 40px;
   border-radius: 5%;
 }
+
 .text-bold {
   font-weight: bold;
 }
@@ -51,10 +52,10 @@ a {
 
 .linkbutton {
   background-color: #fff;
-  color: #1e40af;
-  padding: 10px 90px;
+  color: #0c4177;
+  padding: 20px 90px;
   margin: 10px;
-  height: 40px;
+  height: 20px;
   border-radius: 30px;
 }
 .bold {
@@ -67,11 +68,13 @@ a {
   margin: 10px;
 }
 .margintopbutton {
-  margin-top: 60px;
+  margin-top: 100px;
 }
 .text-center {
   text-align: center;
-  font-size: 90%;
+}
+.p-size {
+  font-size: 12px;
 }
 .size-footer {
   font-size: 20px;
