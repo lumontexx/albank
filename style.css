@@ -32,8 +32,8 @@ a {
 }
 .conteiner {
   background-color: #f8981d;
-  padding: 20px;
-  margin: 40px;
+  padding: 90px;
+  margin: 10px 40px;
   border-radius: 5%;
 }
 .text-bold {
@@ -56,7 +56,6 @@ a {
   margin: 10px;
   height: 40px;
   border-radius: 30px;
-  cursor: pointer;
 }
 .bold {
   font-weight: bold;
@@ -72,6 +71,7 @@ a {
 }
 .text-center {
   text-align: center;
+  font-size: 90%;
 }
 .size-footer {
   font-size: 20px;
