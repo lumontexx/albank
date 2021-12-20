@@ -36,6 +36,12 @@ a {
   margin: 10px 40px;
   border-radius: 5%;
 }
+.conteiner2 {
+  background-color: #da8618;
+  padding: 90px;
+  margin: 10px 40px;
+  border-radius: 5%;
+}
 
 .text-bold {
   font-weight: bold;
@@ -51,12 +57,17 @@ a {
 }
 
 .linkbutton {
-  background-color: #fff;
-  color: #0c4177;
   padding: 20px 90px;
   margin: 10px;
   height: 20px;
   border-radius: 30px;
+}
+.buttonwhite {
+  background-color: #fff;
+}
+
+.buttonwhite:hover {
+  background-color: rgb(202, 199, 199);
 }
 .bold {
   font-weight: bold;
@@ -90,4 +101,33 @@ a {
 }
 .margintitle-conteiner2 {
   margin-top: 100px;
+}
+@media screen and (min-width: 576px) {
+  .margin-text {
+    .margin: 40px 40px;
+  }
+  .conteiner {
+    padding: 10px;
+    margin: 0px 40px;
+    border-radius: 5%;
+  }
+  .marginbuttons {
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .margin-text {
+    margin: 40px 80px;
+  }
+  .conteiner {
+    margin: 0px 80px;
+    border-radius: 2%;
+  }
+}
+@media (min-width: 1900px) {
+  .margin-text {
+    margin: 40px 400px;
+    border-radius: 2%;
+  }
 }
