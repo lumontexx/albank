@@ -79,3 +79,15 @@ a {
 .size-footer {
   font-size: 20px;
 }
+.marginapp a {
+  margin: 50px 40px;
+}
+.borderapp {
+  border-radius: 5%;
+}
+.borderwhite {
+  border: 3px solid #fff;
+}
+.margintitle-conteiner2 {
+  margin-top: 100px;
+}
