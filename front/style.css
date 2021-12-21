@@ -36,11 +36,8 @@ a {
   margin: 10px 40px;
   border-radius: 5%;
 }
-.conteiner2 {
-  background-color: #da8618;
-  padding: 90px;
-  margin: 10px 40px;
-  border-radius: 5%;
+.heightconteiner {
+  height: 600px;
 }
 
 .text-bold {
@@ -73,7 +70,7 @@ a {
 .bold {
   font-weight: bold;
 }
-.blue a {
+.blue {
   color: #1e40af;
 }
 .marginbuttons {
@@ -92,7 +89,7 @@ a {
   font-size: 20px;
 }
 .marginapp {
-  padding: 50px 200px;
+  padding: 150px 200px;
 }
 .borderapp {
   border-radius: 5%;
