@@ -17,5 +17,5 @@ services:
       - "${PATHPESSOAL}/oal/front:/app"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.sitealvitre.rule=Host(`www.${DOMAIN}`,`oal.${DOMAIN}`, `oalconta.com`, `www.oalconta.com`)"
-      - "traefik.http.services.sitealvitre.loadbalancer.server.port=80"
+      - "traefik.http.routers.siteoal.rule=Host(`oal.${DOMAIN}`, `oalconta.com`, `www.oalconta.com`)"
+      - "traefik.http.services.siteoal.loadbalancer.server.port=80"
