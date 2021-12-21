@@ -22,7 +22,7 @@ a {
   align-items: center;
 }
 .margin-menu {
-  margin: 40px;
+  margin: 20px;
 }
 .margin-text {
   margin: 70px 40px;
@@ -68,6 +68,7 @@ a {
 
 .buttonwhite:hover {
   background-color: rgb(202, 199, 199);
+  cursor: pointer;
 }
 .bold {
   font-weight: bold;
@@ -90,8 +91,8 @@ a {
 .size-footer {
   font-size: 20px;
 }
-.marginapp a {
-  margin: 50px 40px;
+.marginapp {
+  padding: 50px 200px;
 }
 .borderapp {
   border-radius: 5%;
@@ -101,6 +102,18 @@ a {
 }
 .margintitle-conteiner2 {
   margin-top: 100px;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.padding-menu {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.pd-menu-itens {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 @media screen and (min-width: 576px) {
   .margin-text {
@@ -122,12 +135,16 @@ a {
   }
   .conteiner {
     margin: 0px 80px;
-    border-radius: 2%;
+    border-radius: 1%;
   }
 }
 @media (min-width: 1900px) {
   .margin-text {
     margin: 40px 400px;
     border-radius: 2%;
+  }
+  .conteiner {
+    margin: 0px 400px;
+    border-radius: 1%;
   }
 }

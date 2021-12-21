@@ -1,0 +1,21 @@
+version: "3"
+
+networks:
+  stack_ponte:
+    external: true
+
+services:
+  apacheoal:
+    container_name: "apacheoal"
+    image: webdevops/apache
+    networks:
+      - stack_ponte
+    restart: always
+    ports:
+      - 851:80
+    volumes:
+      - "${PATHPESSOAL}/oal/front:/app"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.siteoal.rule=Host(`oal.${DOMAIN}`, `oalconta.com`, `www.oalconta.com`)"
+      - "traefik.http.services.siteoal.loadbalancer.server.port=80"
