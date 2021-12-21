@@ -5,8 +5,8 @@ networks:
     external: true
 
 services:
-  apachealvitre:
-    container_name: "apachealvitre"
+  apacheoal:
+    container_name: "apacheoal"
     image: webdevops/apache
     networks:
       - stack_ponte
@@ -14,7 +14,7 @@ services:
     ports:
       - 851:80
     volumes:
-      - "${PATH}/oal:/app"
+      - "${PATH}/oal/front:/app"
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.sitealvitre.rule=Host(`www.${DOMAIN}`,`${DOMAIN}`, `oalconta.com`, `www.oalconta.com`)"
