@@ -31,13 +31,20 @@ a {
   text-align: justify;
 }
 .conteiner {
-  background-color: #da8618;
   padding: 90px;
   margin: 10px 40px;
   border-radius: 5%;
+  background-color: #da8618;
 }
 .heightconteiner {
   height: 600px;
+}
+.imgconteiner {
+  background-image: url("./img/background-conteiner/conteiner.png");
+  background-repeat: no-repeat, repeat;
+}
+.opacity {
+  opacity: 0.25;
 }
 
 .text-bold {
@@ -54,18 +61,31 @@ a {
 }
 
 .linkbutton {
-  padding: 20px 90px;
+  padding: 20px 55px;
   margin: 10px;
-  height: 20px;
+  height: 50px;
   border-radius: 30px;
 }
 .buttonwhite {
   background-color: #fff;
 }
+.font20 {
+  font-size: 20px;
+}
 
-.buttonwhite:hover {
+.bluebutton:hover {
   background-color: rgb(202, 199, 199);
   cursor: pointer;
+}
+.bluebutton {
+  background-color: #112257;
+  padding: 8px 20px;
+  margin: 5px;
+  height: 15px;
+  border-radius: 10px;
+}
+.fontwhite a {
+  color: #fff;
 }
 .bold {
   font-weight: bold;
@@ -73,9 +93,7 @@ a {
 .blue {
   color: #1e40af;
 }
-.marginbuttons {
-  margin: 10px;
-}
+
 .margintopbutton {
   margin-top: 100px;
 }
@@ -83,7 +101,7 @@ a {
   text-align: center;
 }
 .p-size {
-  font-size: 12px;
+  font-size: 10px;
 }
 .size-footer {
   font-size: 20px;
@@ -104,10 +122,6 @@ a {
   justify-content: space-between;
 }
 
-.padding-menu {
-  padding-left: 40px;
-  padding-right: 40px;
-}
 .pd-menu-itens {
   padding-left: 10px;
   padding-right: 10px;
