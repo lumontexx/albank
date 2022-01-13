@@ -95,7 +95,7 @@ a {
 }
 
 .margintopbutton {
-  margin-top: 100px;
+  margin-top: 250px;
 }
 .text-center {
   text-align: center;
@@ -125,6 +125,32 @@ a {
 .pd-menu-itens {
   padding-left: 10px;
   padding-right: 10px;
+}
+.language {
+  background-color: #ffffff;
+  width: 300px;
+  color: #000;
+  padding: 5px;
+  margin: 30px;
+  height: 25px;
+  border-radius: 10px;
+}
+.circle {
+  border-radius: 100%;
+}
+.cardinfo {
+  background-color: #fff;
+  color: rgb(12, 12, 12);
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  height: 150px;
+  border-radius: 10px;
+}
+.reight {
+  position: relative;
+  left: 700px;
+  top: 250px;
 }
 @media screen and (min-width: 576px) {
   .margin-text {
