@@ -156,6 +156,11 @@ a {
   .margin-text {
     .margin: 40px 40px;
   }
+  .right {
+    position: relative;
+    left: 700px;
+    top: 250px;
+  }
   .conteiner {
     padding: 10px;
     margin: 0px 40px;
