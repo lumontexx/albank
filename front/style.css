@@ -134,6 +134,8 @@ a {
   margin: 30px;
   height: 25px;
   border-radius: 10px;
+  position: relative;
+  left: 1100px;
 }
 .circle {
   border-radius: 100%;
@@ -143,7 +145,7 @@ a {
   color: rgb(12, 12, 12);
   width: 400px;
   padding: 20px;
-  margin: 10px;
+  margin: 0;
   height: 150px;
   border-radius: 10px;
 }
@@ -152,14 +154,10 @@ a {
   left: 1090px;
   top: 250px;
 }
+
 @media screen and (min-width: 576px) {
   .margin-text {
     .margin: 40px 40px;
-  }
-  .right {
-    position: relative;
-    left: 700px;
-    top: 250px;
   }
   .conteiner {
     padding: 10px;
