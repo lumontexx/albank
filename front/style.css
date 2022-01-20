@@ -177,9 +177,6 @@ a {
     margin: 0px;
   }
 }
-.opacity {
-  opacity: 0.2;
-}
 
 @media screen and (min-width: 1024px) {
   .margin-text {
@@ -216,6 +213,6 @@ a {
     top: 25px;
   }
   .conteiner {
-    height: 870px;
+    height: 875px;
   }
 }
