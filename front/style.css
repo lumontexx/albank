@@ -31,13 +31,12 @@ a {
   text-align: justify;
 }
 .conteiner {
-  padding: 90px;
-  margin: 10px 40px;
+  padding: 50px;
+  margin: 40px;
   border-radius: 5%;
   background-color: #da8618;
-}
-.heightconteiner {
-  height: 600px;
+  max-width: 1100px;
+  height: 730px;
 }
 
 .text-bold {
@@ -62,6 +61,8 @@ a {
 }
 .buttonwhite {
   background-color: #fff;
+  position: relative;
+  right: 300px;
 }
 .font20 {
   font-size: 20px;
@@ -149,8 +150,18 @@ a {
 }
 .right {
   position: relative;
-  left: 1080px;
-  top: -620px;
+  left: 420px;
+  top: 20px;
+}
+.whiteconteiner {
+  background-color: #fff;
+  color: #112257;
+  padding: 10px 50px;
+  margin: auto;
+  position: relative;
+  top: -30px;
+  left: 30px;
+  box-shadow: 0 0 1em rgba(24, 23, 23, 0.63);
 }
 
 @media screen and (min-width: 576px) {
@@ -165,6 +176,9 @@ a {
   .marginbuttons {
     margin: 0px;
   }
+}
+.opacity {
+  opacity: 0.2;
 }
 
 @media screen and (min-width: 1024px) {
@@ -187,13 +201,18 @@ a {
   }
 }
 @media (max-width: 1200px) {
-  .right {
-    position: relative;
-    left: 520px;
-    top: -620px;
+  .cardinfo {
+    height: 210px;
   }
   .language {
-    position: relative;
-    left: 620px;
+    left: 600px;
+  }
+  .whiteconteiner {
+    width: 200px;
+    padding: 40px;
+  }
+  .buttonwhite {
+    right: 130px;
+    top: 25px;
   }
 }
